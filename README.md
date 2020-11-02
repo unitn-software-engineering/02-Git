@@ -2,9 +2,9 @@
 Laboratorio di Ingegneria del Software 2 - Anno accademico 2020-2021 - Università degli studi di Trento
 
 Materiale utile:
-- Git CLI (git-scm.com/downloads)
-- GitHub (github.com), con l'indirizzo @unitn si ottiene la licenza pro
-- Guida a git devdev.it/guida-git-versioning/
+- Git CLI (https://git-scm.com/downloads)
+- GitHub (https://github.com), con l'indirizzo @unitn si ottiene la licenza pro
+- Guida a git (https://devdev.it/guida-git-versioning/)
 
 
 ## Basics
