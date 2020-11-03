@@ -25,6 +25,8 @@ Materiale utile:
 
     `git status`
 
+    ![](master.png)
+
 1. Stage files (tracked and untracked)
 
     `git add .`
@@ -50,6 +52,8 @@ Materiale utile:
 
     `git log --oneline`
 
+    ![](statusVsLog.png)
+
 1. Revert back your working directory to a previous commit
 
     `git checkout <commit ID>`
@@ -67,6 +71,8 @@ Materiale utile:
     `git commit -am "commit in the new branch"`   
     `git log`
 
+    ![](branches.png)
+
 1. Delete a branch
 
     `git branch -d newFunction`
@@ -77,9 +83,13 @@ Materiale utile:
     `git merge newFunction`
     `git log --graph --decorate --oneline`
 
+    ![](fastForward.png)
+
 1. Resolving conflicts in 3-way merge 
 
     `git mergetool`
+
+    ![](3waymerge.png)
 
 
 
@@ -151,6 +161,8 @@ Materiale utile:
 1. Revert
 
     `git revert`
+
+    ![](revertReset.png)
 
 1. Check with gitk
 
