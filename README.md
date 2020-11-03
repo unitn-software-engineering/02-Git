@@ -123,6 +123,8 @@ Materiale utile:
 
     `git pull`
 
+    ![](pull.png)
+
 1. Fetching changes without merging
 
     `git fetch origin master`
