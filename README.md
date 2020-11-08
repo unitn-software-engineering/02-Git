@@ -4,10 +4,11 @@ Laboratorio di Ingegneria del Software 2 - Anno accademico 2020-2021 - Universit
 Materiale utile:
 - Git CLI (https://git-scm.com/downloads)
 - GitHub (https://github.com), con l'indirizzo @unitn si ottiene la licenza pro
-- Guida a git (https://devdev.it/guida-git-versioning/)
-
+- Guida a git (https://www.atlassian.com/git/tutorials)
 
 ## Basics
+
+https://www.atlassian.com/git/tutorials/setting-up-a-repository
 
 1. Initialize a new repository in a local directory
 
@@ -104,6 +105,8 @@ Materiale utile:
 
 
 ## Collaboration
+
+https://www.atlassian.com/git/tutorials/syncing
 
 1. On github.com create a github repository
 
@@ -220,11 +223,13 @@ The core idea behind the Feature Branch Workflow is that all feature development
 
 ### Gitflow Workflow
 
+https://www.atlassian.com/git/tutorials/comparing-workflows
+
 The Gitflow Workflow defines a strict branching model designed around the project release. This provides a robust framework for managing larger projects.
 
 This workflow doesn’t add any new concepts or commands beyond what’s required for the ​Feature Branch Workflow​. Instead, it assigns very specific roles to different branches and defines how and when they should interact. In addition to feature branches, it uses individual branches for preparing, maintaining, and recording releases.
 
-![](gitflow.png)
+![](gitFlow.png)
 
 The ​master​ branch stores the official release history, and the ​develop​ branch serves as an integration branch for features. It's also convenient to tag all commits in the master branch with a version number.
 
