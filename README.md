@@ -66,6 +66,8 @@ https://www.atlassian.com/git/tutorials/setting-up-a-repository
 
 ## Branching
 
+https://www.atlassian.com/git/tutorials/using-branches
+
 1. Modify files then create a new branch, stage and commit changes, and push to remote repository
 
     `git branch newFunction`
@@ -88,6 +90,8 @@ https://www.atlassian.com/git/tutorials/setting-up-a-repository
 
 1. Fast-forward merge
 
+    https://www.atlassian.com/git/tutorials/using-branches/git-merge
+
     `git checkout master`
     
     `git merge newFunction`
@@ -96,12 +100,15 @@ https://www.atlassian.com/git/tutorials/setting-up-a-repository
 
     ![](fastForward.png)
 
-1. Resolving conflicts in 3-way merge 
-
+1. Resolving conflicts in 3-way merge
+    
+    https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts
+    
     `git mergetool`
-
+    
     ![](3waymerge.png)
-
+    
+https://www.atlassian.com/git/tutorials/using-branches/merge-strategy
 
 
 ## Collaboration
@@ -134,17 +141,23 @@ https://www.atlassian.com/git/tutorials/syncing
 
 1. Pull changes
 
+    https://www.atlassian.com/git/tutorials/syncing/git-pull
+
     `git pull`
 
     ![](pull.png)
 
 1. Fetching changes without merging
-
+    
+    https://www.atlassian.com/git/tutorials/syncing/git-fetch
+    
     `git fetch origin master`
 
     `git branch -a`
 
 1. Push changes to remote repository
+
+    https://www.atlassian.com/git/tutorials/syncing/git-push
 
     `git push origin master`
 
@@ -162,6 +175,8 @@ https://www.atlassian.com/git/tutorials/syncing
 
 1. Rebasing
 
+    https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+
     `git rebase master`
     (commits in current branch are "re-applied" to the head of master)
 
@@ -178,6 +193,10 @@ https://www.atlassian.com/git/tutorials/syncing
     `git tag`
 
 1. Reset
+    
+    https://www.atlassian.com/git/tutorials/undoing-changes
+    https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
+    
     - --soft – The staged snapshot and working directory are not altered in any way.
     - --mixed – The staged snapshot is updated to match the specified commit, but the working directory is not affected. This is the default option.
     - --hard – The staged snapshot and the working directory are both updated to match the specified commit.
@@ -203,6 +222,8 @@ https://www.atlassian.com/git/tutorials/syncing
 
 ### Centralized Workflow
 
+https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow
+
 In this flow, the default development branch is called master and all changes are committed into this branch​. ​This workflow doesn’t require any other branches besides master​.
 
 ![](centralized.png)
@@ -216,10 +237,13 @@ The pull would still work if you forgot this option, but you would wind up with 
 
 ### Git Feature Branch Workflow
 
+https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+
 The core idea behind the Feature Branch Workflow is that all feature development should take place in a dedicated branch instead of the master branch.​ ​This encapsulation makes it easy for multiple developers to work on a particular feature without disturbing the main codebase. It also means the master branch will never contain broken code, which is a huge advantage for continuous integration environments.
 
 ![](featureBranch.png)
 
+https://www.atlassian.com/git/tutorials/making-a-pull-request
 
 ### Gitflow Workflow
 
@@ -243,6 +267,8 @@ releases.
 
 
 ### Forking Workflow
+
+https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow
 
 As in the other ​Git workflows​, the Forking Workflow begins with an official public repository stored on a server. But when a new developer wants to start working on the project, they do not directly clone the official repository. Instead, they ​fork​ the official repository to create a copy of it on the server.
 
