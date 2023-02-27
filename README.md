@@ -1,7 +1,7 @@
 # Introduzione a Git
 Laboratorio di Ingegneria del Software 2 - Anno accademico 2020-2021 - Università degli studi di Trento
 
-Materiale utile:
+## Materiale utile:
 - Git CLI (https://git-scm.com/downloads)
 - GitHub (https://github.com), con l'indirizzo @unitn si ottiene la licenza pro
 - Guida a git (https://www.atlassian.com/git/tutorials)
